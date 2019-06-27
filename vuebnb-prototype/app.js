@@ -8,6 +8,7 @@ var app = new Vue({
         prices: sample.prices,
         headerImageStyle: {
             'background-image': 'url(sample/header.jpg)'
-        }
+        },
+        contracted: true,
     }
 });

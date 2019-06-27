@@ -17,6 +17,9 @@
     <h1>vuebnb</h1>
   </div>
   <div id="app">
+    <div class="header">
+      <div class="header-img" v-bind:style="headerImageStyle"></div>
+    </div>
     <div class="container">
       <div class="heading">
         <h1>{{ title }}</h1>
@@ -30,6 +33,7 @@
     </div>
   </div>
   <script src="node_modules/vue/dist/vue.js"></script>
+  <script src="sample/data.js"></script>
   <script src="app.js"></script>
 </body>
 
